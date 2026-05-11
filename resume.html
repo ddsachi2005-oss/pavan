@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan D - View Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface-color);
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--text-color);
+        }
+        .resume-header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .resume-header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+        .resume-header p {
+            margin: 0.2rem 0;
+            font-size: 1.1rem;
+        }
+        .resume-section {
+            margin-bottom: 2.5rem;
+        }
+        .resume-section h3 {
+            color: var(--primary-color);
+            border-bottom: 1px solid rgba(102, 252, 241, 0.2);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .resume-item {
+            margin-bottom: 1.5rem;
+        }
+        .resume-item h4 {
+            color: var(--text-light);
+            font-size: 1.2rem;
+            margin-bottom: 0.3rem;
+        }
+        .resume-item span {
+            color: var(--secondary-color);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .resume-item p, .resume-item ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .resume-item ul {
+            padding-left: 1.5rem;
+        }
+        .resume-item ul li {
+            margin-bottom: 0.5rem;
+        }
+        .download-btn-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Pavan<span class="text-gradient">.D</span></a>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certification.html">Certification</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>My <span class="text-gradient">Resume</span></h2>
+        
+        <div class="resume-container">
+            <div class="resume-header">
+                <h1>Pavan D</h1>
+                <p><i class="fas fa-phone"></i> 8951568258 &nbsp;|&nbsp; <i class="fas fa-envelope"></i> pavanpavand49@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Tiptur, Tumkur District, Karnataka</p>
+            </div>
+
+            <div class="resume-section">
+                <h3>Career Objective</h3>
+                <p>Motivated and detail-oriented BCA graduate seeking an entry-level IT position to apply programming, web development, and database skills in a growth-oriented organization.</p>
+            </div>
+
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>Bachelor of Computer Applications (BCA)</h4>
+                    <span>2023 - 2026 | Government First Grade College, Tiptur (Tumkur University)</span>
+                    <p>Focused on Software Engineering, Data Structures, and Algorithms. Graduated with honors.<br><strong>CGPA:</strong> 8.53</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Pre-University Course (PUC)</h4>
+                    <span>2023 | MNG PU COLLEGE KOLAR</span>
+                    <p><strong>Stream:</strong> Computer Science<br><strong>Percentage:</strong> 83.67%</p>
+                </div>
+                <div class="resume-item">
+                    <h4>SSLC (10th Standard)</h4>
+                    <span>2021 | Government High School Nayakarahalli, Kolar</span>
+                    <p><strong>Board:</strong> KSEEB<br><strong>Percentage:</strong> 78.8%</p>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Technical Skills</h3>
+                <ul style="list-style-type: none; padding-left: 0; display: flex; flex-wrap: wrap; gap: 10px;">
+                    <li class="skill-tag">C Programming</li>
+                    <li class="skill-tag">Python</li>
+                    <li class="skill-tag">Java</li>
+                    <li class="skill-tag">PHP</li>
+                    <li class="skill-tag">R Programming</li>
+                    <li class="skill-tag">C# (.NET)</li>
+                    <li class="skill-tag">HTML/CSS/JS</li>
+                    <li class="skill-tag">MySQL</li>
+                </ul>
+            </div>
+
+            <div class="resume-section">
+                <h3>Projects</h3>
+                <div class="resume-item">
+                    <h4>Resume Analyzer & Candidate Shortlisting System (Python)</h4>
+                    <p>Developed a system to analyze resumes and shortlist candidates based on keyword matching and skill relevance. Implemented text extraction and preprocessing techniques to improve accuracy.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>GUI Application using Tkinter (Python)</h4>
+                    <p>Designed and developed a desktop-based graphical user interface using Tkinter to perform user-interactive operations efficiently.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Data Visualization using Matplotlib (Python)</h4>
+                    <p>Created graphical charts and visualizations to represent and analyze various datasets, improving data understanding and presentation.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Student Management System (C# .NET)</h4>
+                    <p>Developed an application to manage student records, attendance, and academic details.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Library Management System (MySQL)</h4>
+                    <p>Designed a database system to manage books, users, and transactions efficiently.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Web Development Projects</h4>
+                    <p>Created responsive web pages demonstrating front-end development skills using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Languages Known</h3>
+                <p>Kannada, English, Hindi, Telugu</p>
+            </div>
+
+            <div class="download-btn-container">
+                <a href="resume.docx" target="_blank" class="btn btn-primary"><i class="fas fa-download"></i> Download Resume (.docx)</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pavan D. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
